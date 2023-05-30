@@ -1,0 +1,76 @@
+0
+20
+60
+100
+90
+20
+0
+50
+90
+80
+60
+50
+0
+40
+50
+100
+90
+40
+0
+30
+90
+80
+50
+30
+0
+
+
+
+for i in  row_index_i:
+    for j in row_index_j:
+        sum=matrix[i][j]
+
+
+
+
+#df =pd.DataFrame(matrix,columns=[0,1,2,3,4])
+#row_index_i = df[index_i:index_i+1]
+#row_index_j = df[index_j:index_j+1]
+
+
+#print(row_index_i)
+
+#print(df)
+#s=row_index_i.values[0][1]
+#t=row_index_j.values[0][2]
+
+#sum = [0 for m in range(n_cols)]
+#avg = [0 for m in range(n_cols)]
+
+
+
+
+
+
+for i in range(0,n_cols,1):
+    if i != index_i and i != index_j:
+       sum[i]= row_index_i.values[0][i]+row_index_j.values[0][i]
+       avg[i]=(sum[i]/2)
+
+
+print(sum)
+print()
+print(avg)
+
+
+
+
+
+#print(row_index_i[0])
+#print()
+#print(row_index_j)
+
+#print(df)
+#df=df.drop(0,axis=1)
+#df=df.drop(0,axis=0)
+#print(df)
